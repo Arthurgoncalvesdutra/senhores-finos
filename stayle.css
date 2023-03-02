@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+    margin: auto;
+    background: rgb(138,7,89);
+background: radial-gradient(circle, rgba(138,7,89,1) 19%, rgba(158,5,66,1) 20%, rgba(179,3,40,1) 22%, rgba(129,8,100,1) 23%, rgba(0,255,181,1) 29%, rgba(153,5,72,1) 33%, rgba(213,0,0,1) 36%, rgba(146,6,80,1) 36%, rgba(143,6,83,1) 37%, rgba(131,8,97,1) 42%, rgba(124,8,106,1) 45%, rgba(112,9,121,1) 50%, rgba(106,24,125,1) 53%, rgba(99,38,128,1) 56%, rgba(92,53,132,1) 59%, rgba(85,68,136,1) 62%, rgba(81,78,138,1) 64%, rgba(65,112,146,1) 71%, rgba(29,191,165,1) 72%, rgba(56,132,151,1) 75%, rgba(74,93,141,1) 77%, rgba(49,147,155,1) 78%, rgba(40,167,159,1) 82%, rgba(117,9,115,1) 86%, rgba(20,211,170,1) 91%, rgba(213,0,0,1) 94%, rgba(7,240,177,1) 97%);
+    
+}
+canvas{
+    animation-name:borda ;
+    animation-duration:4s ;
+    animation-iteration-count:infinite ;
+    margin-top: 40px;
+}
+@keyframes borda{
+    from{box-shadow: 1px 1px 38px white;}
+    to{box-shadow:  1px 1px 38px greenyellow;}
+}
+button:hover{
+    background-color:yellowgreen;
+}
